@@ -1,0 +1,20 @@
+cff-version: 1.0.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Author"
+    given-names: "First"
+    orcid: "https://orcid.org/0000-0002-1825-0097"
+    affiliation: "University of Somewhere"
+  - family-names: "Author"
+    given-names: "Second"
+    orcid: "https://orcid.org/0000-0001-5109-3700"
+    affiliation: "University of Somewhere Else"
+  - family-names: "Else"
+    given-names: "Someone"
+    affiliation: "University of Somewhere"
+title: "Title from CFF"
+version: 2.0
+doi: "10.5072/test"
+date-released: 2022-09-08
+license: MIT
+url: "https://github.com/seek4science/workflow-test-fixture"
