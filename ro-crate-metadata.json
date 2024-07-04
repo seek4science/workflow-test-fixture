@@ -1,0 +1,162 @@
+{
+  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.1"
+      }
+    },
+    {
+      "@id": "ro-crate-preview.html",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/crate/1.1"
+        },
+        {
+          "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
+        }
+      ],
+      "mainEntity": {
+        "@id": "concat_two_files.ga"
+      },
+      "author": [
+
+      ],
+      "license": "MIT",
+      "identifier": "http://localhost:3000/workflows/459?version=1",
+      "url": "http://localhost:3000/workflows/459/ro_crate?version=1",
+      "name": "Research Object Crate for Concat two files",
+      "description": "# workflow-test-fixture\r\nA workflow and associated files for use in SEEK's tests :)\r\n",
+      "isBasedOn": "https://github.com/seek4science/workflow-test-fixture",
+      "sdDatePublished": "2024-07-04 13:31:54 +0100",
+      "hasPart": [
+        {
+          "@id": "concat_two_files.ga"
+        },
+        {
+          "@id": "diagram.png"
+        },
+        {
+          "@id": "missing-file.txt"
+        }
+      ]
+    },
+    {
+      "@id": "concat_two_files.ga",
+      "@type": [
+        "File",
+        "SoftwareSourceCode",
+        "ComputationalWorkflow"
+      ],
+      "contentSize": 4813,
+      "programmingLanguage": {
+        "@id": "#galaxy"
+      },
+      "image": {
+        "@id": "diagram.png"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalWorkflow/1.0-RELEASE/",
+      "description": "# workflow-test-fixture\r\nA workflow and associated files for use in SEEK's tests :)\r\n",
+      "name": "Concat two files",
+      "url": "http://localhost:3000/workflows/459?version=1",
+      "keywords": "cat",
+      "version": 1,
+      "license": "https://spdx.org/licenses/MIT",
+      "creator": {
+        "@id": "#Finn%20Bacall"
+      },
+      "producer": {
+        "@id": "http://localhost:3000/projects/46"
+      },
+      "dateCreated": "2024-07-04T12:31:49Z",
+      "dateModified": "2024-07-04T12:31:49Z",
+      "isPartOf": [
+
+      ],
+      "input": [
+        {
+          "@id": "#concat_two_files-inputs-%23main/input1"
+        },
+        {
+          "@id": "#concat_two_files-inputs-%23main/input2"
+        }
+      ],
+      "output": {
+        "@id": "#concat_two_files-outputs-%23main/_anonymous_output_3"
+      },
+      "sdPublisher": {
+        "@id": "http://about.workflowhub.eu"
+      }
+    },
+    {
+      "@id": "diagram.png",
+      "@type": [
+        "File",
+        "ImageObject",
+        "WorkflowSketch"
+      ],
+      "contentSize": 32248
+    },
+    {
+      "@id": "#Finn Bacall",
+      "@type": "Person",
+      "name": "Finn Bacall"
+    },
+    {
+      "@id": "http://localhost:3000/projects/46",
+      "@type": [
+        "Project",
+        "Organization"
+      ],
+      "name": "Testing"
+    },
+    {
+      "@id": "#galaxy",
+      "@type": "ComputerLanguage",
+      "name": "Galaxy",
+      "identifier": {
+        "@id": "https://galaxyproject.org/"
+      },
+      "url": {
+        "@id": "https://galaxyproject.org/"
+      }
+    },
+    {
+      "@id": "#concat_two_files-inputs-#main/input1",
+      "@type": "FormalParameter",
+      "name": "#main/input1",
+      "dct:conformsTo": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE/"
+    },
+    {
+      "@id": "#concat_two_files-inputs-#main/input2",
+      "@type": "FormalParameter",
+      "name": "#main/input2",
+      "dct:conformsTo": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE/"
+    },
+    {
+      "@id": "#concat_two_files-outputs-#main/_anonymous_output_3",
+      "@type": "FormalParameter",
+      "name": "#main/_anonymous_output_3",
+      "dct:conformsTo": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE/"
+    },
+    {
+      "@id": "http://about.workflowhub.eu",
+      "@type": "Organization",
+      "name": "WorkflowHub",
+      "url": "http://about.workflowhub.eu"
+    }
+  ]
+}
