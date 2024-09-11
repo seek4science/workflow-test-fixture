@@ -13,5 +13,5 @@ jobs:
         env:
           API_TOKEN: ${{ secrets.WORKFLOWHUB_API_TOKEN }}
         with:
-          team_id: 46
+          team_id: 9
           instance: https://dev.workflowhub.eu
