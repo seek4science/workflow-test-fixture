@@ -29,7 +29,7 @@
 
       ],
       "license": "MIT",
-      "url": "https://github.com/seek4science/workflow-test-fixture#banana-bread",
+      "url": "https://github.com/seek4science/workflow-test-fixture-123",
       "version": 1,
       "name": "Concat two files via GHA",
       "description": "# workflow-test-fixture\r\nA workflow and associated files for use in SEEK's tests :)\r\n",
