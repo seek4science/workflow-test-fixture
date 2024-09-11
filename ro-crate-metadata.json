@@ -29,9 +29,9 @@
 
       ],
       "license": "MIT",
-      "url": "https://github.com/seek4science/workflow-test-fixture",
+      "url": "https://github.com/seek4science/workflow-test-fixture#banana-bread",
       "version": 1,
-      "name": "Research Object Crate for Concat two files",
+      "name": "Concat two files via GHA",
       "description": "# workflow-test-fixture\r\nA workflow and associated files for use in SEEK's tests :)\r\n",
       "sdDatePublished": "2024-07-04 13:31:54 +0100",
       "hasPart": [
