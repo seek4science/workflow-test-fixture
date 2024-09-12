@@ -1,6 +1,6 @@
 name: Publish workflows on WorkflowHub
 
-on: push
+on: workflow_dispatch
 
 jobs:
   wfh-submit:
