@@ -9,9 +9,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Submit workflows
+        id: submit-wf
         uses: workflowhub-eu/submission-action@main
         env:
           API_TOKEN: ${{ secrets.WORKFLOWHUB_API_TOKEN }}
         with:
           team_id: 9
           instance: https://dev.workflowhub.eu
+      - name: Debug outputs
+        run: echo ${{ steps.submit-wf.outputs.workflow_urls }}
